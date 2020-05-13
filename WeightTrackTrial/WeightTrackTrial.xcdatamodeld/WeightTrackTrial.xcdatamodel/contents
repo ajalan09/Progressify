@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="16119" systemVersion="19C57" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Entry" representedClassName="Entry" syncable="YES" codeGenerationType="class">
+        <attribute name="backImg" optional="YES" attributeType="Binary"/>
+        <attribute name="date" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="frontImg" optional="YES" attributeType="Binary"/>
+        <attribute name="sideImg" optional="YES" attributeType="Binary"/>
+        <attribute name="weight" attributeType="String"/>
+    </entity>
+    <entity name="Goal" representedClassName="Goal" syncable="YES">
+        <attribute name="targetWeight" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="Entry" positionX="-54" positionY="-9" width="128" height="118"/>
+        <element name="Goal" positionX="-36" positionY="27" width="128" height="58"/>
+    </elements>
+</model>
