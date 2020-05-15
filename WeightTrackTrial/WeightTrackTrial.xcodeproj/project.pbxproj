@@ -21,6 +21,7 @@
 		584AE76E2463453E00377737 /* EntryListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584AE76D2463453E00377737 /* EntryListViewModel.swift */; };
 		585EBAEC246980E2001DC342 /* Backup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585EBAEB246980E2001DC342 /* Backup.swift */; };
 		585EBAEE246C2C91001DC342 /* ProgressPicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585EBAED246C2C91001DC342 /* ProgressPicView.swift */; };
+		585EBAF0246C4712001DC342 /* TransformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585EBAEF246C4712001DC342 /* TransformationView.swift */; };
 		58FE00F02465FA4200385217 /* Goal+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FE00EE2465FA4200385217 /* Goal+CoreDataClass.swift */; };
 		58FE00F12465FA4200385217 /* Goal+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FE00EF2465FA4200385217 /* Goal+CoreDataProperties.swift */; };
 		58FE01162466EE4300385217 /* AddGoalViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FE01152466EE4300385217 /* AddGoalViewModel.swift */; };
@@ -47,6 +48,7 @@
 		584AE76D2463453E00377737 /* EntryListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryListViewModel.swift; sourceTree = "<group>"; };
 		585EBAEB246980E2001DC342 /* Backup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Backup.swift; sourceTree = "<group>"; };
 		585EBAED246C2C91001DC342 /* ProgressPicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressPicView.swift; sourceTree = "<group>"; };
+		585EBAEF246C4712001DC342 /* TransformationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransformationView.swift; sourceTree = "<group>"; };
 		58FE00EE2465FA4200385217 /* Goal+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Goal+CoreDataClass.swift"; sourceTree = "<group>"; };
 		58FE00EF2465FA4200385217 /* Goal+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Goal+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		58FE01152466EE4300385217 /* AddGoalViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGoalViewModel.swift; sourceTree = "<group>"; };
@@ -140,6 +142,7 @@
 				58FE01192466EEA400385217 /* AddGoalView.swift */,
 				58FE0121246839AA00385217 /* TempImageView.swift */,
 				585EBAED246C2C91001DC342 /* ProgressPicView.swift */,
+				585EBAEF246C4712001DC342 /* TransformationView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -237,6 +240,7 @@
 				584AE76E2463453E00377737 /* EntryListViewModel.swift in Sources */,
 				584AE76524633CE500377737 /* CoreDataManager.swift in Sources */,
 				58FE011A2466EEA400385217 /* AddGoalView.swift in Sources */,
+				585EBAF0246C4712001DC342 /* TransformationView.swift in Sources */,
 				58FE01162466EE4300385217 /* AddGoalViewModel.swift in Sources */,
 				58FE01202468352000385217 /* ImagePicker.swift in Sources */,
 				584AE74D246328A200377737 /* SceneDelegate.swift in Sources */,
@@ -378,8 +382,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"WeightTrackTrial/Preview Content\"";
+				DEVELOPMENT_TEAM = N97CB3PJ53;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = WeightTrackTrial/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -397,8 +403,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"WeightTrackTrial/Preview Content\"";
+				DEVELOPMENT_TEAM = N97CB3PJ53;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = WeightTrackTrial/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

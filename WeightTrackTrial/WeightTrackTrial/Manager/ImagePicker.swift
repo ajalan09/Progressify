@@ -12,13 +12,22 @@ class ImagePickerCoordinator: NSObject, UINavigationControllerDelegate, UIImageP
         _isShown = isShown
     }
     
-    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
+    /*func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
         
         if let uiImage = info[UIImagePickerController.InfoKey.originalImage] as? UIImage {
             image = uiImage
             isShown = false
         }
         
+    }*/
+    
+    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
+        
+        if let pickedImage = info[UIImagePickerController.InfoKey.originalImage] as? UIImage {
+             let fixedpickedImg = pickedImage.fixOrientation()//this is the new fixed orientation image.
+             image = fixedpickedImg
+             isShown = false
+        }
     }
     
     func imagePickerControllerDidCancel(_ picker: UIImagePickerController) {
@@ -50,5 +59,4 @@ struct ImagePicker: UIViewControllerRepresentable {
         return picker
         
     }
-    
 }

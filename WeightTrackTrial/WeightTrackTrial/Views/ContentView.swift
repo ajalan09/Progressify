@@ -2,6 +2,7 @@ import SwiftUI
 
 struct ContentView: View {
     
+    @State private var TransformationIsPresented: Bool = false
     @State private var isPresented: Bool = false
     @State private var GoalisPresented: Bool = false
     @State private var targetWeight: String = "TBD"
@@ -19,7 +20,7 @@ struct ContentView: View {
         
         VStack {
             HStack {
-                Text("Goal Weight: \(goalListVM.fetchAnswer().targetWeight)")
+                Text("Goal Weight: \(goalListVM.fetchAnswer())")
                 
                 .sheet(isPresented: $GoalisPresented, onDismiss: {
                     self.goalListVM.fetchGoal()
@@ -27,6 +28,7 @@ struct ContentView: View {
                     AddGoalView()
                 })
             }.padding()
+             
             
             NavigationView {
                         
@@ -44,21 +46,24 @@ struct ContentView: View {
                 }
                     
                 .sheet(isPresented: $isPresented, onDismiss: {
-                    print("The sheet is fired")
                     self.entryListVM.fetchAllEntries()
                 }, content: {
                     AddEntryView(isPresented: self.$isPresented)
                 })
             
-                    
-                /*.sheet(isPresented: $GoalisPresented, onDismiss: {
-                    self.goalListVM.fetchGoal()
-                }, content: {
-                    AddGoalView()
-                })*/
-    
                 .navigationBarItems(leading: EntryButtonView(isPresented: $isPresented), trailing: GoalButtonView(GoalisPresented: $GoalisPresented))
                 .navigationBarTitle("Progress")
+            }
+            
+            VStack {
+                Button("Compare Transformation") {
+                    self.TransformationIsPresented.toggle()
+                }
+                .sheet(isPresented: $TransformationIsPresented, onDismiss: {
+                   
+                }, content: {
+                    TransformationView(entryListVM: self.entryListVM)
+                })
             }
         }
     }

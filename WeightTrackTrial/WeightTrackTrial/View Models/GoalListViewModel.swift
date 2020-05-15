@@ -25,15 +25,15 @@ class GoalListViewModel: ObservableObject {
         print(goals)
     }
     
-    func fetchAnswer() -> GoalViewModel {
-        self.goals.last!
+    func fetchAnswer() -> String {
+        self.goals.last?.targetWeight ?? "Unkown"
     }
     
     
 }
 
 class GoalViewModel {
-    var targetWeight = ""
+    var targetWeight = "Unkown"
     
     init(goal: Goal) {
         self.targetWeight = goal.targetWeight!
