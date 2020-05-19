@@ -10,7 +10,6 @@
 		584AE74B246328A200377737 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584AE74A246328A200377737 /* AppDelegate.swift */; };
 		584AE74D246328A200377737 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584AE74C246328A200377737 /* SceneDelegate.swift */; };
 		584AE750246328A200377737 /* WeightTrackTrial.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 584AE74E246328A200377737 /* WeightTrackTrial.xcdatamodeld */; };
-		584AE752246328A200377737 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 584AE751246328A200377737 /* ContentView.swift */; };
 		584AE754246328A400377737 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 584AE753246328A400377737 /* Assets.xcassets */; };
 		584AE757246328A400377737 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 584AE756246328A400377737 /* Preview Assets.xcassets */; };
 		584AE75A246328A400377737 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 584AE758246328A400377737 /* LaunchScreen.storyboard */; };
@@ -22,6 +21,13 @@
 		585EBAEC246980E2001DC342 /* Backup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585EBAEB246980E2001DC342 /* Backup.swift */; };
 		585EBAEE246C2C91001DC342 /* ProgressPicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585EBAED246C2C91001DC342 /* ProgressPicView.swift */; };
 		585EBAF0246C4712001DC342 /* TransformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585EBAEF246C4712001DC342 /* TransformationView.swift */; };
+		588EAD682471CF21008C174A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588EAD672471CF21008C174A /* ContentView.swift */; };
+		588EAD6A2471CF8F008C174A /* TempView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588EAD692471CF8F008C174A /* TempView.swift */; };
+		588EAD6D2471CFD2008C174A /* Color.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 588EAD6B2471CFD2008C174A /* Color.xcassets */; };
+		588EAD6E2471CFD2008C174A /* ColorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588EAD6C2471CFD2008C174A /* ColorManager.swift */; };
+		588EAD702471D081008C174A /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588EAD6F2471D081008C174A /* Error.swift */; };
+		588EAD722471D57E008C174A /* ProgressCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 588EAD712471D57E008C174A /* ProgressCellView.swift */; };
+		58D8BBF4246F522800CB7D39 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D8BBF3246F522800CB7D39 /* HomeView.swift */; };
 		58FE00F02465FA4200385217 /* Goal+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FE00EE2465FA4200385217 /* Goal+CoreDataClass.swift */; };
 		58FE00F12465FA4200385217 /* Goal+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FE00EF2465FA4200385217 /* Goal+CoreDataProperties.swift */; };
 		58FE01162466EE4300385217 /* AddGoalViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58FE01152466EE4300385217 /* AddGoalViewModel.swift */; };
@@ -36,7 +42,6 @@
 		584AE74A246328A200377737 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		584AE74C246328A200377737 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		584AE74F246328A200377737 /* WeightTrackTrial.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WeightTrackTrial.xcdatamodel; sourceTree = "<group>"; };
-		584AE751246328A200377737 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		584AE753246328A400377737 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		584AE756246328A400377737 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		584AE759246328A400377737 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +54,13 @@
 		585EBAEB246980E2001DC342 /* Backup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Backup.swift; sourceTree = "<group>"; };
 		585EBAED246C2C91001DC342 /* ProgressPicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressPicView.swift; sourceTree = "<group>"; };
 		585EBAEF246C4712001DC342 /* TransformationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransformationView.swift; sourceTree = "<group>"; };
+		588EAD672471CF21008C174A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		588EAD692471CF8F008C174A /* TempView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempView.swift; sourceTree = "<group>"; };
+		588EAD6B2471CFD2008C174A /* Color.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Color.xcassets; sourceTree = "<group>"; };
+		588EAD6C2471CFD2008C174A /* ColorManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorManager.swift; sourceTree = "<group>"; };
+		588EAD6F2471D081008C174A /* Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
+		588EAD712471D57E008C174A /* ProgressCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressCellView.swift; sourceTree = "<group>"; };
+		58D8BBF3246F522800CB7D39 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		58FE00EE2465FA4200385217 /* Goal+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Goal+CoreDataClass.swift"; sourceTree = "<group>"; };
 		58FE00EF2465FA4200385217 /* Goal+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Goal+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		58FE01152466EE4300385217 /* AddGoalViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGoalViewModel.swift; sourceTree = "<group>"; };
@@ -88,6 +100,8 @@
 		584AE749246328A200377737 /* WeightTrackTrial */ = {
 			isa = PBXGroup;
 			children = (
+				588EAD6B2471CFD2008C174A /* Color.xcassets */,
+				588EAD6C2471CFD2008C174A /* ColorManager.swift */,
 				58FE00EE2465FA4200385217 /* Goal+CoreDataClass.swift */,
 				58FE00EF2465FA4200385217 /* Goal+CoreDataProperties.swift */,
 				584AE76624633DCC00377737 /* Extensions */,
@@ -137,12 +151,16 @@
 		584AE76324633C4300377737 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				584AE751246328A200377737 /* ContentView.swift */,
 				584AE76B24633F3400377737 /* AddEntryView.swift */,
 				58FE01192466EEA400385217 /* AddGoalView.swift */,
 				58FE0121246839AA00385217 /* TempImageView.swift */,
 				585EBAED246C2C91001DC342 /* ProgressPicView.swift */,
 				585EBAEF246C4712001DC342 /* TransformationView.swift */,
+				58D8BBF3246F522800CB7D39 /* HomeView.swift */,
+				588EAD672471CF21008C174A /* ContentView.swift */,
+				588EAD692471CF8F008C174A /* TempView.swift */,
+				588EAD6F2471D081008C174A /* Error.swift */,
+				588EAD712471D57E008C174A /* ProgressCellView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -214,6 +232,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				584AE75A246328A400377737 /* LaunchScreen.storyboard in Resources */,
+				588EAD6D2471CFD2008C174A /* Color.xcassets in Resources */,
 				584AE757246328A400377737 /* Preview Assets.xcassets in Resources */,
 				584AE754246328A400377737 /* Assets.xcassets in Resources */,
 			);
@@ -226,12 +245,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				588EAD6A2471CF8F008C174A /* TempView.swift in Sources */,
 				585EBAEE246C2C91001DC342 /* ProgressPicView.swift in Sources */,
+				588EAD702471D081008C174A /* Error.swift in Sources */,
 				584AE74B246328A200377737 /* AppDelegate.swift in Sources */,
+				58D8BBF4246F522800CB7D39 /* HomeView.swift in Sources */,
 				585EBAEC246980E2001DC342 /* Backup.swift in Sources */,
 				58FE011C2467145000385217 /* GoalListViewModel.swift in Sources */,
 				584AE750246328A200377737 /* WeightTrackTrial.xcdatamodeld in Sources */,
-				584AE752246328A200377737 /* ContentView.swift in Sources */,
+				588EAD682471CF21008C174A /* ContentView.swift in Sources */,
+				588EAD722471D57E008C174A /* ProgressCellView.swift in Sources */,
 				584AE76C24633F3400377737 /* AddEntryView.swift in Sources */,
 				58FE00F12465FA4200385217 /* Goal+CoreDataProperties.swift in Sources */,
 				584AE76A24633EE600377737 /* AddEntryViewModel.swift in Sources */,
@@ -239,6 +262,7 @@
 				58FE0122246839AA00385217 /* TempImageView.swift in Sources */,
 				584AE76E2463453E00377737 /* EntryListViewModel.swift in Sources */,
 				584AE76524633CE500377737 /* CoreDataManager.swift in Sources */,
+				588EAD6E2471CFD2008C174A /* ColorManager.swift in Sources */,
 				58FE011A2466EEA400385217 /* AddGoalView.swift in Sources */,
 				585EBAF0246C4712001DC342 /* TransformationView.swift in Sources */,
 				58FE01162466EE4300385217 /* AddGoalViewModel.swift in Sources */,

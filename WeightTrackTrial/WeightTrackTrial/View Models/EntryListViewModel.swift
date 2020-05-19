@@ -29,6 +29,14 @@ class EntryListViewModel: ObservableObject {
         CoreDataManager.shared.deleteEntry(weight: entryVM.weight)
         fetchAllEntries()
     }
+    
+    func fetchFirstEntry() -> String {
+        return entries.first?.weight ?? "Unkown"
+    }
+    
+    func fetchLastEntry() -> String {
+        return entries.last?.weight ?? "Unkown"
+    }
 }
 
 class EntryViewModel {
