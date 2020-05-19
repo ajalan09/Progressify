@@ -22,7 +22,7 @@ struct ProgressCellView: View {
             Spacer()
 
             
-            Text(entry.weight)
+            Text("\(entry.weight)")
                 .foregroundColor(Color(white: 1.8))
                 .font(.system(size: 25.0, weight: .bold, design: .rounded))
             

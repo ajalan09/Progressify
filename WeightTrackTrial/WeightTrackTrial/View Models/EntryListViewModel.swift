@@ -26,16 +26,16 @@ class EntryListViewModel: ObservableObject {
     }
     
     func deleteEntry(entryVM: EntryViewModel) {
-        CoreDataManager.shared.deleteEntry(weight: entryVM.weight)
+        CoreDataManager.shared.deleteEntry(id: entryVM.id)
         fetchAllEntries()
     }
     
     func fetchFirstEntry() -> String {
-        return entries.first?.weight ?? "Unkown"
+        return CoreDataManager.shared.getAllEntries().last?.weight ?? "0.00"
     }
     
     func fetchLastEntry() -> String {
-        return entries.last?.weight ?? "Unkown"
+       return CoreDataManager.shared.getAllEntries().first?.weight ?? "0.00"
     }
 }
 
@@ -45,6 +45,7 @@ class EntryViewModel {
     var frontImg = UIImage(systemName: "person")?.pngData()
     var sideImg = UIImage(systemName: "person")?.pngData()
     var backImg = UIImage(systemName: "person")?.pngData()
+    var id = UUID()
     
     init(entry: Entry) {
         self.date = entry.date!
@@ -52,6 +53,7 @@ class EntryViewModel {
         self.frontImg = entry.frontImg
         self.sideImg = entry.sideImg
         self.backImg = entry.backImg
+        self.id = entry.id ?? UUID()
     }
 }
 

@@ -38,7 +38,7 @@ struct TransformationView: View {
                     HStack(spacing: 10) {
                         ForEach(self.entryListVM.entries, id: \.weight) { entry in
                             VStack {
-                                Text(entry.weight)
+                                Text("\(entry.weight)")
                                 
                                 if (self.showFront) {
                                     Image(uiImage: (UIImage(data: (entry.frontImg ?? UIImage(systemName: "person")?.pngData())!)!))

@@ -31,6 +31,7 @@ struct AddEntryView: View {
                     VStack {
                         
                         TextField("Enter weight", text: self.$addEntryVM.weight)
+                            .keyboardType(.numberPad)
                             .multilineTextAlignment(TextAlignment.center)
                             .textFieldStyle(RoundedBorderTextFieldStyle())
                             .padding()

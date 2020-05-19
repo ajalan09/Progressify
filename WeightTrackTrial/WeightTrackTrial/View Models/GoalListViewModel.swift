@@ -26,7 +26,7 @@ class GoalListViewModel: ObservableObject {
     }
     
     func fetchAnswer() -> String {
-        self.goals.last?.targetWeight ?? "Unkown"
+        self.goals.last?.targetWeight ?? "0.00"
     }
     
     

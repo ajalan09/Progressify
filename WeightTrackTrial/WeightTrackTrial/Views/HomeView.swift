@@ -1,7 +1,7 @@
 import SwiftUI
 
 struct HomeView: View {
-    
+
     @State private var TransformationIsPresented: Bool = false
     @State private var isPresented: Bool = false
     @State private var GoalisPresented: Bool = false
@@ -89,7 +89,7 @@ struct HomeView: View {
                                 .font(.system(size: 17.0, weight: .regular, design: .rounded))
                                 .foregroundColor(ColorManager.WriteGray)
                                 .padding(.bottom, 6)
-                            Text(self.entryListVM.fetchFirstEntry())
+                            Text("\(self.entryListVM.fetchFirstEntry())")
                                 .font(.system(size: 30.0, weight: .bold, design: .rounded))
                                 .foregroundColor(.white)
                         }
@@ -103,7 +103,7 @@ struct HomeView: View {
                                 .font(.system(size: 17.0, weight: .regular, design: .rounded))
                                 .padding(.bottom, 6)
                                 .foregroundColor(ColorManager.WriteGray)
-                            Text(self.entryListVM.fetchLastEntry())
+                            Text("\(self.entryListVM.fetchLastEntry())")
                                 .font(.system(size: 30.0, weight: .bold, design: .rounded))
                                 .foregroundColor(.white)
                         }
@@ -126,7 +126,7 @@ struct HomeView: View {
                             VStack(spacing: g.size.height*0.025) {
                                 
                                 List {
-                                    ForEach(self.entryListVM.entries , id: \.weight) { entry in
+                                    ForEach(self.entryListVM.entries , id: \.id) { entry in
                                         ProgressCellView(entry: entry, linkIsPresented: self.$linkIsPresented)
                                             .frame(width: g.size.width*0.74, height: g.size.height*0.01)
                                             .padding(30)
