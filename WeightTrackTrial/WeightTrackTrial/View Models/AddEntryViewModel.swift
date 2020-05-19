@@ -16,9 +16,10 @@ class AddEntryViewModel {
     var frontImg: UIImage = UIImage(systemName: "person")!
     var sideImg: UIImage = UIImage(systemName: "person")!
     var backImg: UIImage = UIImage(systemName: "person")!
+    var id: UUID = UUID()
 
     func saveEntry () {
-        CoreDataManager.shared.saveEntry(date: self.date, weight: self.weight, frontImg: self.frontImg, sideImg: self.sideImg, backImg: self.backImg)
+        CoreDataManager.shared.saveEntry(date: self.date, weight: self.weight, frontImg: self.frontImg, sideImg: self.sideImg, backImg: self.backImg, id: self.id)
     }
 }
 

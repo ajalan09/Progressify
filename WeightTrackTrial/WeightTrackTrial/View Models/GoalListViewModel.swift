@@ -26,7 +26,8 @@ class GoalListViewModel: ObservableObject {
     }
     
     func fetchAnswer() -> String {
-        self.goals.last?.targetWeight ?? "Unkown"
+        let temp: Double = ((self.goals.last?.targetWeight ?? "0.0") as NSString).doubleValue
+        return String(format: "%.1f", temp)
     }
     
     

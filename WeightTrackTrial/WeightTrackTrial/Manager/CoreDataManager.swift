@@ -20,11 +20,11 @@ class CoreDataManager {
         self.moc = moc
     }
     
-    private func fetchEntry(weight: String) -> Entry? {
+    private func fetchEntry(id: UUID) -> Entry? {
         var entries = [Entry]()
         
         let request: NSFetchRequest<Entry> = Entry.fetchRequest()
-        request.predicate = NSPredicate(format: "weight == %@", weight)
+        request.predicate = NSPredicate(format: "id == %@", id as CVarArg)
         
         do {
             entries = try self.moc.fetch(request)
@@ -35,9 +35,9 @@ class CoreDataManager {
         return entries.first
     }
     
-    func deleteEntry(weight: String) {
+    func deleteEntry(id: UUID) {
         do {
-            if let entry = fetchEntry(weight: weight) {
+            if let entry = fetchEntry(id: id) {
                 self.moc.delete(entry)
                 try self.moc.save()
             }
@@ -46,7 +46,7 @@ class CoreDataManager {
         }
     }
     
-    func saveEntry(date: Date, weight: String, frontImg: UIImage, sideImg: UIImage, backImg: UIImage) {
+    func saveEntry(date: Date, weight: String, frontImg: UIImage, sideImg: UIImage, backImg: UIImage, id: UUID) {
         
         let entry = Entry(context: self.moc)
         entry.date = date
@@ -54,6 +54,8 @@ class CoreDataManager {
         entry.frontImg = frontImg.pngData()
         entry.sideImg = sideImg.pngData()
         entry.backImg = backImg.pngData()
+        entry.id = id
+        
         
         
         do {
@@ -67,6 +69,9 @@ class CoreDataManager {
         var entries = [Entry]()
         
         let entryRequest: NSFetchRequest<Entry> = Entry.fetchRequest()
+        let sort = NSSortDescriptor(key: #keyPath(Entry.date), ascending: false)
+        
+        entryRequest.sortDescriptors = [sort]
         
         do {
             entries = try self.moc.fetch(entryRequest)
@@ -76,6 +81,23 @@ class CoreDataManager {
         
         return entries
     }
+    
+    func sortEntries() -> [Entry] {
+           var entries = [Entry]()
+           
+           let entryRequest: NSFetchRequest<Entry> = Entry.fetchRequest()
+           let sort = NSSortDescriptor(key: #keyPath(Entry.date), ascending: true)
+           
+           entryRequest.sortDescriptors = [sort]
+           
+           do {
+               entries = try self.moc.fetch(entryRequest)
+           } catch let error as NSError {
+               print(error)
+           }
+           
+           return entries
+       }
     
     func saveGoal(targetWeight: String) {
         

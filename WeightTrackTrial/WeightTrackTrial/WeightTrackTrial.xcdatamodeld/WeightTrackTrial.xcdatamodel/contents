@@ -4,6 +4,7 @@
         <attribute name="backImg" optional="YES" attributeType="Binary"/>
         <attribute name="date" attributeType="Date" usesScalarValueType="NO"/>
         <attribute name="frontImg" optional="YES" attributeType="Binary"/>
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
         <attribute name="sideImg" optional="YES" attributeType="Binary"/>
         <attribute name="weight" attributeType="String"/>
     </entity>
@@ -11,7 +12,7 @@
         <attribute name="targetWeight" optional="YES" attributeType="String"/>
     </entity>
     <elements>
-        <element name="Entry" positionX="-54" positionY="-9" width="128" height="118"/>
+        <element name="Entry" positionX="-54" positionY="-9" width="128" height="133"/>
         <element name="Goal" positionX="-36" positionY="27" width="128" height="58"/>
     </elements>
 </model>

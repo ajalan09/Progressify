@@ -16,6 +16,7 @@ struct AddGoalView: View {
         VStack(alignment: .center) {
             
             TextField("Enter Goal Weight", text: self.$addGoalVM.targetWeight)
+                .keyboardType(.numbersAndPunctuation)
                 .multilineTextAlignment(TextAlignment.center)
                 .textFieldStyle(RoundedBorderTextFieldStyle())
                 .padding(8)
