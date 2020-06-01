@@ -11,6 +11,8 @@ import SwiftUI
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
+   //@EnvironmentObject var UIState: UIStateModel
+    
     var window: UIWindow?
 
 

@@ -7,8 +7,10 @@
 //
 
 import SwiftUI
+import CoreData
+import UIKit
 
-struct TransformationView: View {
+/*struct TransformationView: View {
     
     var entryListVM: EntryListViewModel
     @State private var showFront: Bool = false
@@ -79,6 +81,20 @@ struct TransformationView: View {
                 Button("Close Back") {
                     self.showBack = false
                 }
+            }
+        }
+    }
+}
+*/
+struct TransformationView: View {
+    var entryListVM: EntryListViewModel
+    @State private var selectedWeight: String
+    
+    var body: some View {
+        Picker(selection: self.$selectedWeight, label: Text("")) {
+            //ForEach(Array(self.entryListVM.entries.enumerated()) , id: \.1.id) { (index,entry) in
+            ForEach(0..<self.entryListVM.entries.count) {
+                Text(self.entryListVM.entries[$0].weight).tag($0)
             }
         }
     }

@@ -1,4 +1,6 @@
 import SwiftUI
+import CoreData
+import UIKit
 
 struct HomeView: View {
 
@@ -78,7 +80,9 @@ struct HomeView: View {
                                 
                             }
                             .sheet(isPresented: self.$GoalisPresented, onDismiss: {
+                                self.goalListVM.fetchAnswer()
                                 self.goalListVM.fetchGoal()
+                                
                             }, content: {
                                 AddGoalView()
                             })
@@ -149,7 +153,7 @@ struct HomeView: View {
                                     ForEach(Array(self.entryListVM.entries.enumerated()) , id: \.1.id) { (index,entry) in
                                         VStack {
                                             
-                                            ProgressCellView(entry: entry, linkIsPresented: self.$linkIsPresented, changeAndColor: self.entryListVM.changeWeight(index: index))
+                                            ProgressCellView(entry: entry, linkIsPresented: self.$linkIsPresented, changeAndColor: self.entryListVM.changeWeight(index: index), changeAndBeginColor: self.entryListVM.changeBeginWeight(index: index))
                                                 .frame(width: g.size.width*0.74, height: g.size.height*0.01)
                                                 .padding(30)
                                                 .background(ColorManager.ProgressBackground)
@@ -157,15 +161,13 @@ struct HomeView: View {
                                         }
                                     }
                                     .onDelete(perform: self.delete)
-                                }
+                                    }.id(UUID())
                             
                                 .sheet(isPresented: self.$isPresented, onDismiss: {
                                     self.entryListVM.fetchAllEntries()
                                 }, content: {
                                     AddEntryView(isPresented: self.$isPresented)
                                 })
-                                
-                                //                                    .navigationBarItems(leading: EntryButtonView(isPresented: self.$isPresented), trailing: GoalButtonView(GoalisPresented: self.$GoalisPresented))
                                 
                             }
                             
@@ -204,6 +206,7 @@ struct HomeView: View {
 
 
 
+
 struct EntryButtonView: View {
     
     @Binding var isPresented: Bool
@@ -218,6 +221,7 @@ struct EntryButtonView: View {
                 Circle()
                     .frame(width: g*0.07829977629, height: g*0.07829977629)
                     .foregroundColor(ColorManager.CustomBlue)
+ 
                 Text("+")
                     .font(.system(size: 48.0, weight: .light, design: .rounded))
                     .offset(y: -2)
@@ -272,6 +276,7 @@ struct NavigationConfigurator: UIViewControllerRepresentable {
     }
     
 }
+
 
 
 

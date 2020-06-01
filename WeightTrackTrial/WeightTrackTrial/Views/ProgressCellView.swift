@@ -8,11 +8,13 @@
 
 import SwiftUI
 import UIKit
+import CoreData
 
 struct ProgressCellView: View {
     var entry: EntryViewModel
     @Binding var linkIsPresented: Bool
     var changeAndColor: (String,Color?,String)
+    var changeAndBeginColor: (String,Color?,String)
     
     var body: some View {
         HStack {
@@ -65,7 +67,7 @@ struct ProgressCellView: View {
             .sheet(isPresented: self.$linkIsPresented, onDismiss: {
                 
             }, content: {
-                ProgressPicView(entry: self.entry)
+               EntryInfoView(changeAndBeginColor: self.changeAndBeginColor, entry: self.entry)
             })
         }
     }

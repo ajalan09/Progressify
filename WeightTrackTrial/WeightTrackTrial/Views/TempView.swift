@@ -7,10 +7,34 @@
 //
 
 import SwiftUI
+import CoreData
+import UIKit
 
 struct TempView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        
+       Text("Hello")
+        
+        /* ZStack {
+            ColorManager.BackgroundColor
+                .edgesIgnoringSafeArea(.all)
+            
+            GeometryReader { g in
+                
+                HStack {
+                    Image("ProgressPic1")
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        .padding(12)
+                        
+                    
+                    
+                }
+                .frame(width: g.size.width, height: g.size.height*0.7)
+                
+            }
+        }*/
+        
     }
 }
 

@@ -12,7 +12,7 @@
         <attribute name="targetWeight" optional="YES" attributeType="String"/>
     </entity>
     <elements>
-        <element name="Entry" positionX="-45" positionY="0" width="128" height="133"/>
-        <element name="Goal" positionX="-18" positionY="72" width="128" height="58"/>
+        <element name="Entry" positionX="-63" positionY="-18" width="128" height="133"/>
+        <element name="Goal" positionX="-54" positionY="36" width="128" height="58"/>
     </elements>
 </model>

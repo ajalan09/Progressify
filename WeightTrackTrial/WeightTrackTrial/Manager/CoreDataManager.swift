@@ -82,7 +82,7 @@ class CoreDataManager {
         return entries
     }
     
-    func sortEntries() -> [Entry] {
+    /*func sortEntries() -> [Entry] {
            var entries = [Entry]()
            
            let entryRequest: NSFetchRequest<Entry> = Entry.fetchRequest()
@@ -97,7 +97,7 @@ class CoreDataManager {
            }
            
            return entries
-       }
+       }*/
     
     func saveGoal(targetWeight: String) {
         
