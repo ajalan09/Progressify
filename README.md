@@ -2,7 +2,8 @@
 WeightTrack is an iOS app that enables the user track his fitness progress not only through his weight, but also through his transformation pictures. I was motivated to develop this app because I personally went through a huge weight loss transformation where I lost over 50 pounds, and during my journey, I was dissapointed with the currently-available weight management apps, as none of them had a feature of comparing transformation pictures. 
 
 ## Process
-Include logo/demo screenshot etc.
+
+![Home Screen (FInal)](https://user-images.githubusercontent.com/63879029/89736908-174edc00-da7e-11ea-9c0b-0d3996ce8559.png)
 
 ## Tech/framework used
 Ex. -
