@@ -3,7 +3,7 @@ WeightTrack is an iOS app that enables the user track his fitness progress not o
 
 ## Process
 
-![Home Screen (FInal)](https://user-images.githubusercontent.com/63879029/89736908-174edc00-da7e-11ea-9c0b-0d3996ce8559.png)
+![Home Screen (FInal)](https://user-images.githubusercontent.com/63879029/89736908-174edc00-da7e-11ea-9c0b-0d3996ce8559.png = 100x20)
 
 ## Tech/framework used
 Ex. -
