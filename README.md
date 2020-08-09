@@ -1,5 +1,5 @@
-## Project title
-A little info about your project and/ or overview that explains **what** the project is about.
+## WeightTrack
+WeightTrack is an iOS app that enables the user track his fitness progress not only through his weight, but also through his transformation pictures.
 
 ## Motivation
 A short description of the motivation behind the creation and maintenance of the project. This should explain **why** the project exists.
