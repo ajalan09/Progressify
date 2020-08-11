@@ -1,9 +1,9 @@
 ## WeightTrack
-WeightTrack is an iOS app that enables the user track his fitness progress not only through his weight, but also through his transformation pictures. I was motivated to develop this app because I personally went through a huge weight loss transformation where I lost over 50 pounds, and during my journey, I was dissapointed with the currently-available weight management apps, as none of them had a feature of comparing transformation pictures. 
+WeightTrack is an iOS app that enables the user track his fitness progress not only through his weight, but also through his transformation pictures. I was motivated to develop this app because I personally went through a huge weight loss transformation where I lost over 50 pounds, and during my journey, I was disappointed with the currently-available weight management apps, as none of them had a feature of comparing transformation pictures. 
 
 ## Design of the App
 
-Using the Sketch software, I was able to design a mock up of the mobile app. After going through 10+ iterations (one of them shown below as Fig 1) and recieving user feedback, I was able to come up with a final design (Fig 2).
+Using the Sketch software, I was able to design a mock up of the mobile app. After going through 10+ iterations (one of them shown below as Fig 1) and receiving user feedback, I was able to come up with a final design (Fig 2).
 
 Fig 1: Initial Mock Up         |  Fig 2: Final Design
 :-------------------------:|:-------------------------:
@@ -28,7 +28,7 @@ Fig 5: Screenshot of Progress Entry View      |  Fig 6: Demo of how the Progress
 #### 3. Transformation View
 The transformation view is the Unique Selling Point (USP) of the app! It allows the user to compare his transformation pictures from any of his entries with front/side/back view to be able to see how he has progressed in his fitness journey! Fig 7 showcases a screenshot of my Transformation View comparing my initial photo with my very last photo, whereas Fig 8 is a Demo of how the Transformation Screen functions.
 
-Fig 7: Screenshot of Transformation View     |  Fig 8: Demo of how the Transoformation View works
+Fig 7: Screenshot of Transformation View     |  Fig 8: Demo of how the Transformation View works
 :-------------------------:|:-------------------------:
 <img src="/Screenshots/IMG_4334.PNG" width=300> | <img src="https://media.giphy.com/media/f60deo37i56vl0pPhs/giphy.gif" width=300>
 
@@ -36,7 +36,7 @@ Please note that this view will change slightly to make the transformation pictu
 
 
 #### 4. Graph View
-The graph view wil display a simplistic chart mapping the user's progress. This view is under construction.
+The graph view will display a simplistic chart mapping the user's progress. This view is under construction.
 
 ## Tests
 The mobile application was tested using the Time Profiler tool in XCode, and helped drastically increase the speed of the app by identifying time-heavy functions. 
@@ -45,7 +45,7 @@ The mobile application was tested using the Time Profiler tool in XCode, and hel
 The app is currently being beta-tested, and will soon be released on the App Store (hopefully by October!)
 
 ## Credits
-* 
-*
+* Your First iOS and SwiftUI App by Ray Wenderlich (Online Course available for Free!) - This course enabled me to learn SwiftUI
+* SwiftUI - Declarative Interfaces for any Apple Device by Mohammad Azam (Online Course on Udemy) - This course furthered my skills in SwiftUI 
 * https://www.youtube.com/channel/UCsuV4MRk_aB291SrchUVb4w - This YouTube channel had a lot of the content I was looking for!
 
