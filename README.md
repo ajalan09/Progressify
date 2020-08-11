@@ -7,7 +7,7 @@ Using the Sketch software, I was able to design a mock up of the mobile app. Aft
 
 Fig 1: Initial Mock Up         |  Fig 2: Final Design
 :-------------------------:|:-------------------------:
-<img src="/Screenshots/InitialMockUp.png" width=200>  |  <img src="/Screenshots/FinalSketch.png" width=200>
+<img src="/Screenshots/InitialMockUp.png" width=300>  |  <img src="/Screenshots/FinalSketch.png" width=300>
 
 
 ## Features
@@ -16,7 +16,7 @@ The home screen of the application displays the user's goal weight (which the us
 
 Fig 3: Design        |  Fig 2: Screenshot of Actual App
 :-------------------------:|:-------------------------:
-<img src="/Screenshots/FinalSketch.png" width=200> | <img src="/Screenshots/iPhoneXHomeScreen.png" width=200>
+<img src="/Screenshots/FinalSketch.png" width=300> | <img src="/Screenshots/iPhoneXHomeScreen.png" width=300>
 
 #### 2. Home Screen
 The home screen of the application displays the user's goal weight (which the user can edit at any time), initial weight, and current weight. More importantly, it also displays the user's past entries, showcasing his/her progress through it. 
