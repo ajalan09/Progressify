@@ -12,18 +12,18 @@ Fig 1: Initial Mock Up         |  Fig 2: Final Design
 
 ## Features
 #### 1. Home Screen
-The home screen of the application displays the user's goal weight (which the user can edit at any time), initial weight, and current weight. More importantly, it also displays the user's past entries, showcasing his/her progress through it. Fig 3 and 4 show how the design was successfully converted into the actual app's home screen.
+The home screen of the application displays the user's goal weight (which the user can edit at any time), initial weight, and current weight. More importantly, it also displays the user's past entries, showcasing his progress through it. Fig 3 and 4 show how the design was successfully converted into the actual app's home screen.
 
-Fig 3: Design        |  Fig 2: Screenshot of Actual App
+Fig 3: Design        |  Fig 4: Screenshot of Actual App (Home Screen)
 :-------------------------:|:-------------------------:
 <img src="/Screenshots/FinalSketch.png" width=300> | <img src="/Screenshots/iPhoneXHomeScreen.png" width=300>
 
-#### 2. Home Screen
-The home screen of the application displays the user's goal weight (which the user can edit at any time), initial weight, and current weight. More importantly, it also displays the user's past entries, showcasing his/her progress through it. 
+#### 2. Progress Entry Screen
+The progress entry screen displays, in more detail, each of the entries that the user submitted. It displays the date on which the entry was submitted, the user's weight at that time, the amount of weight he lost/gained since the beginning of his journey, and his progress pictures that he submitted (which can be toggled to see a front, side and back view). Fig 5 showcases a screenshot of my Progress Entry Screen.
 
-Fig 3: Design        |  Fig 2: Screenshot of Actual App
-:-------------------------:|:-------------------------:
-<img src="/Screenshots/FinalSketch.png" width=200> | <img src="/Screenshots/iPhoneXHomeScreen.png" width=200>
+Fig 3: Design        | 
+:-------------------------:
+<img src="/Screenshots/FinalSketch.png" width=200>
 
 
 ## Tests
