@@ -12,6 +12,11 @@ Fig 1: Initial Mock Up         |  Fig 2: Final Design
 
 ## Features
 #### 1. Home Screen
+The home screen of the application displays the user's goal weight (which the user can edit at any time), initial weight, and current weight. More importantly, it also displays the user's past entries, showcasing his/her progress through it. 
+
+Fig 3: Design        |  Fig 2: Screenshot of Actual App
+:-------------------------:|:-------------------------:
+<img src="/Screenshots/FinalSketch.png" width=200> |  
 
 ## Tech/framework used
 * Sketch
