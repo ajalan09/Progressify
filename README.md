@@ -23,7 +23,7 @@ The progress entry screen displays, in more detail, each of the entries that the
 
 Fig 3: Design        | 
 :-------------------------:
-<img src="/Screenshots/FinalSketch.png" width=200>
+<img src="/Screenshots/IMG_4335.PNG" width=250>
 
 
 ## Tests
