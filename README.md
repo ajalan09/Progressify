@@ -14,8 +14,8 @@ Fig 1: Initial Mock Up         |  Fig 2: Final Design
 #### 1. Home Screen
 
 ## Tech/framework used
-1. Sketch
-2. Swift, SwiftUI, CoreData
+* Sketch
+* Swift, SwiftUI, CoreData
 
 ## Tests
 Describe and show how to run the tests with code examples.
