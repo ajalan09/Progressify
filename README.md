@@ -21,9 +21,15 @@ Fig 3: Design        |  Fig 4: Screenshot of Actual App (Home Screen)
 #### 2. Progress Entry Screen
 The progress entry screen displays, in more detail, each of the entries that the user submitted. It displays the date on which the entry was submitted, the user's weight at that time, the amount of weight he lost/gained since the beginning of his journey, and his progress pictures that he submitted (which can be toggled to see a front, side and back view). Fig 5 showcases a screenshot of my Progress Entry Screen.
 
+Fig 5: Design        |  Fig 6: Screenshot of Actual App (Home Screen)
+:-------------------------:|:-------------------------:
+<img src="/Screenshots/IMG_4335.PNG" width=300> | <img src="https://media.giphy.com/media/SRwOWpAxSNRm6JFwew/giphy.gif" width=300>
+
 Fig 3: Design        | 
 :-------------------------:
-<img src="/Screenshots/IMG_4335.PNG" width=250>
+
+
+
 
 
 ## Tests
