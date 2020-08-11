@@ -1,18 +1,22 @@
 ## WeightTrack
 WeightTrack is an iOS app that enables the user track his fitness progress not only through his weight, but also through his transformation pictures. I was motivated to develop this app because I personally went through a huge weight loss transformation where I lost over 50 pounds, and during my journey, I was dissapointed with the currently-available weight management apps, as none of them had a feature of comparing transformation pictures. 
 
-## Process
+## Design of the App
 
-<img src="/Screenshots/FinalSketch.png" width=200>
+Using the Sketch software, I was able to design a mock up of the mobile app. After going through 10+ iterations (one of them shown below as Fig 1)and recieving user feedback, I was able to come up with a final design (Fig 2)
 
-## Tech/framework used
-Ex. -
+Fig 1: Initial Mock Up         |  Fig 2: Final Design
+:-------------------------:|:-------------------------:
+<img src="/Screenshots/InitialMockUp.png" width=200>  |  <img src="/Screenshots/FinalSketch.png" width=200>
 
-<b>Built with</b>
-- [Electron](https://electron.atom.io)
 
 ## Features
 What makes your project stand out?
+
+## Tech/framework used
+⋅⋅* Sketch
+⋅⋅* Swift, SwiftUI, CoreData
+
 
 ## Code Example
 Show what the library does as concisely as possible, developers should be able to figure out **how** your project solves their problem by looking at the code example. Make sure the API you are showing off is obvious, and that your code is short and concise.
