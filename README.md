@@ -2,8 +2,8 @@
   <img src="/Screenshots/ProgressifyLogoFinal.png" width=200>
 </p>
 
-## WeightTrack
-WeightTrack is an iOS app that enables the user to track his fitness progress not only through his weight, but also through his transformation pictures. I was motivated to develop this app because I personally went through a huge weight loss transformation where I lost over 50 pounds, and during my journey, I was disappointed with the currently-available weight management apps, as none of them had a feature of comparing transformation pictures. 
+## Progressify
+Progressify is an iOS app that enables the user to track his fitness progress not only through his weight, but also through his transformation pictures. I was motivated to develop this app because I personally went through a huge weight loss transformation where I lost over 50 pounds, and during my journey, I was disappointed with the currently-available weight management apps, as none of them had a feature of comparing transformation pictures. 
 
 ## Design of the App
 
