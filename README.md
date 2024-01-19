@@ -40,7 +40,7 @@ Please note that this view will change slightly to make the transformation pictu
 
 
 #### 4. Graph View
-The graph view will display a simplistic chart mapping the user's progress. This view is under construction.
+The graph view will display a simplistic chart mapping the user's progress. 
 
 ## Languages/Frameworks used
 * Swift (SwiftUI, CoreData)
@@ -51,7 +51,7 @@ The graph view will display a simplistic chart mapping the user's progress. This
 The mobile application was tested using the Time Profiler tool in XCode, and helped drastically increase the speed of the app by identifying time-heavy functions. 
 
 ## How to use?
-The app is currently being beta-tested, and will soon be released on the App Store (hopefully by October!)
+The app was built as a passion project, and used internally. It is not available for public use. 
 
 ## Credits
 * Your First iOS and SwiftUI App by Ray Wenderlich (Online Course available for Free!) - This course enabled me to learn SwiftUI
